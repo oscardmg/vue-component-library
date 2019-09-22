@@ -1,16 +1,22 @@
 {
-  "name": "vue-component-lib",
+  "name": "epsa-vue-components",
+  "author": "Oscar Montoya",
   "version": "0.1.0",
-  "private": true,
+  "description": "Prueba librerias en vue",
+  "licence": "ISC",
+  "keywords": [
+    "vue",
+    "components"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build-bundle": "vue-cli-service build --target lib --name epsa ./src/main.js",
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
@@ -21,6 +27,11 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
     "prettier": "^1.18.2",
-    "vue-template-compiler": "^2.6.10"
-  }
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.1.0"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/epsa.common.js"
 }

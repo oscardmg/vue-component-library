@@ -1,5 +1,11 @@
 # vue-component-lib
 
+[Tutorial](https://www.xiegerts.com/post/creating-vue-component-library-introduction/)
+
+[github](https://github.com/siegerts/vue-component-library-template)
+
+[como publicar en npm](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
+
 ## Project setup
 ```
 npm install
